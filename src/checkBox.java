@@ -11,7 +11,7 @@ public class checkBox {
 		WebDriver driver = new ChromeDriver (); 
 		driver.get("https://www.ryanair.com/pl/pl");
 		
-		Thread.sleep(3000L);
+		Thread.sleep(5000L);
 		driver.manage().deleteAllCookies();
 		//driver.findElement(By.xpath("//icon[@xpath='1']")).click();;
 
