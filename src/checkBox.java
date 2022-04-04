@@ -10,6 +10,7 @@ public class checkBox {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\spajk\\Downloads\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver (); 
 		driver.get("https://www.ryanair.com/pl/pl");
+		
 		Thread.sleep(3000L);
 		driver.manage().deleteAllCookies();
 		//driver.findElement(By.xpath("//icon[@xpath='1']")).click();;

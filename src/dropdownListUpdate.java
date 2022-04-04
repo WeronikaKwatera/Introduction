@@ -14,9 +14,9 @@ public class dropdownListUpdate {
 		WebDriver driver = new ChromeDriver (); 
 		
 		driver.get("https://www.aircanada.com/us/en/aco/home.html");
-		Thread.sleep(2000L);
+		Thread.sleep(4000L);
 		driver.findElement(By.id("bkmgFlights_selectTravelers")).click();
-		Thread.sleep(2000L);
+		Thread.sleep(3000L);
 		
 		
 //		IntStream.of(5).forEach(i -> {
